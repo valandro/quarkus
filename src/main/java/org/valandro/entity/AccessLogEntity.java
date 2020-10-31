@@ -1,16 +1,16 @@
 package org.valandro.entity;
 
 
-import io.smallrye.mutiny.Multi;
-import io.vertx.mutiny.pgclient.PgPool;
 import io.vertx.mutiny.sqlclient.Row;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 public class AccessLogEntity {
 
     private Long id;
