@@ -5,6 +5,7 @@ import static io.quarkus.vertx.web.Route.HandlerType.FAILURE;
 import io.quarkus.vertx.web.Route;
 import io.vertx.core.json.JsonObject;
 import io.vertx.reactivex.ext.web.RoutingContext;
+import org.valandro.domain.ErrorResponse;
 import org.valandro.exception.HttpErrorException;
 import java.util.Optional;
 
