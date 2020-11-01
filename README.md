@@ -2,6 +2,9 @@
 
 # Quarkus
 
+### Project diagram
+
+![Project image](./diagram/diagram.png)
 
 ### Running the application in dev mode
 
